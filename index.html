@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Audio/Book</title>
+</head>
+<body>
+    <div class="container-app">
+        <img src="/assets/images/dom-casmurro.jpeg" alt="dom-casmurro">
+        <div id="info-range">
+            <p id="chapter">Capítulo 1</p>
+            <p id="name-author">Dom Casmurro</p>
+        </div>
+        <div class="music-container">
+            <audio id="audio-play" src="/books/dom-casmurro/1.mp3"></audio>
+        </div>
+        <div id="#container-buttons">
+            <button id="back"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button id="next"><i class="bi bi-skip-end-fill"></i></button>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
